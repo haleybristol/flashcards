@@ -1,9 +1,9 @@
-
   $(function() {
+
    $(".javascript").click(function() {
       $(".javascript-definition").toggle();
     });
-    $(".modulo").click(function() {
+   $(".modulo").click(function() {
       $(".modulo-definition").toggle();
     });
     $(".operators").click(function() {
@@ -18,8 +18,10 @@
     $(".plusequal").click(function() {
       $(".plusequal-definition").toggle();
     });
-
-
-
-
+    $(".function").click(function() {
+      $(".function-definition").toggle();
+    });
+    $(".method").click(function() {
+      $(".method-definition").toggle();
+    });
   });
